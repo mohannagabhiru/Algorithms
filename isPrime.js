@@ -9,12 +9,12 @@ function isPrime(number){
         return false
     }
 
-    for(let i = 2 ; i < number; i++){
-        if( number % i === 0){
+    for(let i = 2 ; i <= number; i++){
+        if( number != i && number % i === 0){
             return false
         }
     }
 
     return true
 }
-console.log(isPrime(4));
+console.log(isPrime(2));
