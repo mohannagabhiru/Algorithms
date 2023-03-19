@@ -12,12 +12,10 @@ function uniqueTriplets(arr, target){
     //     }
     // }
     for (let i = 0; i < arr.length - 2; i++) {
-        for (let j = i + 1; j < arr.length - 1; j++) {
-            for (let k = j + 1; k < arr.length; k++) {
+        for (let j = i ; j < i + 3; j++) {
                 if (arr[i] + arr[j] + arr[k] === target) {
                     result.push([arr[i], arr[j], arr[k]])
                 }
-            }
         }
     }
     return result;
