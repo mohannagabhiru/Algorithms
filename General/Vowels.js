@@ -1,15 +1,18 @@
 let vowels = ['a', 'e', 'i', 'o', 'u'];
+let str = "aaaaaa";
+// function vowelsCount(str){
+let count = 0;
 
-function vowelsCount(str){
-    let count = 0;
-
-    for(let i = 0; i < str.length; i++){
-        for(let j = 0; j< vowels.length; j++){
-            if(str[i] == vowels[j])
-                count++;
-        }
+for(let i = 0; i < str.length; i++){
+    for(let j = 0; j< vowels.length; j++){
+        // console.log(j);
+        if(str[i] == vowels[j])
+            count++;
+            // return
     }
-    return count
 }
+console.log(count)
+    // return count
+// }
 
-console.log(vowelsCount("animal"));
+// console.log(vowelsCount("aaaaaaa"));
