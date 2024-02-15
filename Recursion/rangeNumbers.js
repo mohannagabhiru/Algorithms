@@ -12,10 +12,10 @@ function range(start, end){
         return []
     }else{
         const number = range(start, end - 1)
-        console.log(number);
+        // console.log(number);
         number.push(end);
         return number
     }
 }
 
-range(1, 5)
+console.log(range(1, 5))
