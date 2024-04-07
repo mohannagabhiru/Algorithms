@@ -1,4 +1,4 @@
-let items = ["geeksforgeeks", "geeks", "geek", "geezer"];
+let items = ["geeksforgeeks", "geeks", "geek", "geezer", "geyser"];
 let word = ""
 let commonPrefix = -Infinity
 
