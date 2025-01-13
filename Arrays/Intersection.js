@@ -10,6 +10,8 @@ function findIntersection(data1, data2){
             }
         }
     }
+    // Using inbuilt methods
+    // let resultArray = arr1.filter((item) => arr2.includes(item));
     return intersectionElements
 }
 
