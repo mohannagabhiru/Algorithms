@@ -3,7 +3,7 @@ let arr = [ 87, 95, 133, 1, 9]
 function findMinMax(arr){
     let min = Infinity;
     let max = -Infinity;
-    for( let item of arr){
+    for(let item of arr){
         if(item < min){
             min = item
         }

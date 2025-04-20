@@ -15,5 +15,13 @@ for( let num2 of arr){
     }
 }   
 
+// for (let num of arr){
+//     console.log(firstNum, secondNum);
+//     if(num < firstNum){
+//         firstNum = num
+//     }else if(num > firstNum && num < secondNum){
+//         secondNum = num
+//     }
+// }
 console.log(firstNum, secondNum);
 
