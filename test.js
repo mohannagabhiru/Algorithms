@@ -1,11 +1,14 @@
 // const arr = [3, 4, 5, 6];
 // const res = arr.every((item) => item > 4);
 // console.log(res);
+// const queue = []
+// queue.push(3, 5, 6, 7);
+// console.log(queue.unshift(6));
+// console.log(queue)
+// let obj = {
+//   name: "mohan",
+//   age: 23
+// }
+// console.log([obj].length)
 
-let obj = {
-  first: "test",
-  second: "test2",
-  third: "test3"
-}
-[obj.first, obj.second] = [2, 3];
-console.log(obj)
+console.log(false || true)
